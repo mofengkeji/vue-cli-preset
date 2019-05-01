@@ -4,7 +4,6 @@
     "mofengkeji-vue-cli-preset": {
       "useConfigFiles": true,
       "plugins": {
-        "@vue/cli-service": {},
         "@vue/cli-plugin-babel": {},
         "@vue/cli-plugin-eslint": {
           "config": "prettier",
