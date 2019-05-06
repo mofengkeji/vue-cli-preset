@@ -1,23 +1,20 @@
 {
-  "useTaobaoRegistry": true,
-  "presets": {
-    "mofengkeji-vue-cli-preset": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "prettier",
-          "lintOn": [
-            "save",
-            "commit"
-          ]
-        },
-        "@vue/cli-plugin-unit-mocha": {}
+  "mofengkeji-vue-cli-preset": {
+    "useConfigFiles": true,
+    "plugins": {
+      "@vue/cli-plugin-babel": {},
+      "@vue/cli-plugin-eslint": {
+        "config": "prettier",
+        "lintOn": [
+          "save",
+          "commit"
+        ]
       },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true,
-      "cssPreprocessor": "less"
-    }
+      "@vue/cli-plugin-unit-mocha": {}
+    },
+    "router": true,
+    "routerHistoryMode": false,
+    "vuex": true,
+    "cssPreprocessor": "less"
   }
 }
